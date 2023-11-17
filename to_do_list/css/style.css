@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1180px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 80px;
+}
+.to_do{
+    
+    background-color: aqua;
+    padding: 50px;
+    border-radius: 8px;
+
+}
+#input_field{
+    border: none;
+    outline: none;
+    padding: 8px 8px;
+    border: 2px solid blue;
+    border-radius: 6px;
+    
+}
+#btn{
+    height: 34px;
+    width: 34px;
+    border: 2px solid blue;
+    vertical-align: middle;
+    font-size: 30px;
+    border-radius: 6px;
+}
+.to_dos{
+    margin-top: 25px;
+
+}
+.parra{
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
